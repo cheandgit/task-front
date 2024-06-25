@@ -158,8 +158,8 @@ const Output = ({editorRef, codeId, codeName, codeTxt}) => {
             <Button type="button" class="btn btn-dark btn-sm"
                 //isLoading={isLoading}
                 onClick={runSubmit}>Submit</Button>&nbsp;&nbsp;
-            <Button type="button" class="btn btn-secondary btn-sm"
-                onClick={runCompile}>Compile</Button>&nbsp;&nbsp;
+            {/*<Button type="button" class="btn btn-secondary btn-sm"
+                onClick={runCompile}>Compile</Button>&nbsp;&nbsp; */}
             {/* <Button type="button" class="btn btn-success btn-sm"
                 onClick={runOutput}>Run</Button>&nbsp;&nbsp; */}
             <Button type="button" class="btn btn-success btn-sm"    
